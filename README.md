@@ -10,11 +10,11 @@ Objective: Fulfill the user stories below and get all the tests to pass to compl
 
 - You should define a function named add_setting with two parameters representing a dictionary of settings and a tuple containing a key-value pair
 
-add_setting function should:
-Convert the key and value to lowercase.
-If the key setting exists, return Setting '[key]' already exists! Cannot add a new setting with this name.
-If the key setting doesn't exist, add the key-value pair to the given dictionary of settings and return Setting '[key]' added with value '[value]' successfully!.
-The messages returned should have the key and value in lowercase.
+    add_setting function should:
+    Convert the key and value to lowercase.
+    If the key setting exists, return Setting '[key]' already exists! Cannot add a new setting with this name.
+    If the key setting doesn't exist, add the key-value pair to the given dictionary of settings and return Setting '[key]' added with value '[value]' successfully!.
+    The messages returned should have the key and value in lowercase.
 
 - You should define a function named update_setting with two parameters representing a dictionary of settings and a tuple containing a key-value pair.
 
