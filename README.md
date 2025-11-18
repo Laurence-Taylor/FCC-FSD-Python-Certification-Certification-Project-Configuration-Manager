@@ -10,7 +10,7 @@ Objective: Fulfill the user stories below and get all the tests to pass to compl
 
 - You should define a function named <b>add_setting</b> with two parameters representing a dictionary of settings and a tuple containing a key-value pair
 
-    add_setting function should:
+    <b>add_setting function should:</b>
   
     Convert the key and value to lowercase.
   
@@ -20,32 +20,43 @@ Objective: Fulfill the user stories below and get all the tests to pass to compl
   
     The messages returned should have the key and value in lowercase.
 
-- You should define a function named update_setting with two parameters representing a dictionary of settings and a tuple containing a key-value pair.
+- You should define a function named <b>update_setting</b> with two parameters representing a dictionary of settings and a tuple containing a key-value pair.
 
-    update_setting function should:
+    <b>update_setting function should:</b>
+    
         Convert the key and value to lowercase.
+  
         If the key setting exists, update its value in the given dictionary of settings and return: Setting '[key]' updated to '[value]' successfully!
+  
         If the key setting doesn't exist, return Setting '[key]' does not exist! Cannot update a non-existing setting.
+  
         The messages returned should have the key and value in lowercase.
 
-    You should define a function named delete_setting with two parameters representing a dictionary of settings and a key.
+- You should define a function named <b>delete_setting</b> with two parameters representing a dictionary of settings and a key.
 
-    delete_setting function should:
+    <b>delete_setting function should:</b>
+    
         Convert the key passed to lowercase.
+  
         If the key setting exists, remove the key-value pair from the given dictionary of settings and return Setting '[key]' deleted successfully!
+  
         If the key setting does not exist, return Setting not found!
+  
         The messages returned should have the key in lowercase.
 
-    You should define a function named view_settings with one parameter representing a dictionary of settings.
+- You should define a function named <b>view_settings</b> with one parameter representing a dictionary of settings.
 
-    view_settings function should:
+    <b>view_settings function should:</b>
+    
         Return No settings available. if the given dictionary of settings is empty.
-        If the dictionary contains any settings, return a string displaying the settings. The string should start with Current User Settings: followed by the key-value pairs, each on a new line and with the key capitalized. For example, view_settings({'theme': 'dark', 'notifications': 'enabled', 'volume': 'high'}) should return:
-
+  
+If the dictionary contains any settings, return a string displaying the settings. The string should start with Current User Settings: followed by the key-value pairs, each on a new line and with the key capitalized. For example, view_settings({'theme':
+'dark', 'notifications': 'enabled', 'volume': 'high'}) should return:
+```
     Current User Settings:
     Theme: dark
     Notifications: enabled
     Volume: high
-
-    For testing the code, you should create a dictionary named test_settings to store some user configuration preferences.
+```
+For testing the code, you should create a dictionary named test_settings to store some user configuration preferences.
 
