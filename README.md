@@ -8,7 +8,7 @@ Objective: Fulfill the user stories below and get all the tests to pass to compl
 
 ## User Stories:
 
-- You should define a function named add_setting with two parameters representing a dictionary of settings and a tuple containing a key-value pair
+- You should define a function named <b>add_setting</b> with two parameters representing a dictionary of settings and a tuple containing a key-value pair
 
     add_setting function should:
   
